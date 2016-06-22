@@ -4,13 +4,13 @@ Navicat MySQL Data Transfer
 Source Server         : windows_mysql1
 Source Server Version : 50547
 Source Host           : 127.0.0.1:3306
-Source Database       : we7
+Source Database       : we08e52
 
 Target Server Type    : MYSQL
 Target Server Version : 50547
 File Encoding         : 65001
 
-Date: 2016-06-22 08:54:13
+Date: 2016-06-22 15:32:43
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -96,7 +96,7 @@ CREATE TABLE `we_user` (
   `u_name` varchar(50) DEFAULT NULL,
   `u_pwd` char(32) DEFAULT NULL,
   PRIMARY KEY (`u_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of we_user
