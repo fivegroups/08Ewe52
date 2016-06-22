@@ -7,7 +7,7 @@ class checkConfig
 	private $must_extension  = array('mysql','gd','xml','session','iconv');
 	private $recom_extension = array('zip');
 	private $writeable_dir   = array('.','../config','../web','../runtime');
-	private $readable_dir    = array('../config/config_default.php','install/we7.sql');
+	private $readable_dir    = array('../config/config_default.php','install/we8.sql');
 	private $php_ini         = array('safe_mode' => 'off','allow_url_fopen' => 'on');
 
 	//记录检查结果

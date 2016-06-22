@@ -192,7 +192,7 @@ function install_sql()
 	}
 
 	//检测SQL安装文件
-	$sql_file = ROOT_PATH.'./install/we7.sql';
+	$sql_file = ROOT_PATH.'./install/we8.sql';
 	if(!file_exists($sql_file))
 	{
 		showProgress(array('isError' => true,'message' => '安装的SQL文件'.basename($sql_file).'不存在'));
