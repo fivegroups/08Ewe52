@@ -101,7 +101,6 @@ CREATE TABLE `we_user` (
 -- ----------------------------
 -- Records of we_user
 -- ----------------------------
-INSERT INTO `we_user` VALUES ('1', 'lisi', '123456');
 
 -- ----------------------------
 -- Table structure for we_user_privilege
